@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "swathe",
+	"version": "${version}",
+	"name": "Swathe",
+	"description": "Break more than one block at a time. 3x3, 5x5, or a custom shape, with an outline preview so you can see what's going. Works on vanilla servers. If the server has it too, the whole shape goes at once. Based on Zone Miner by Nylad59.",
+	"authors": [
+		"magdalenabay"
+	],
+	"contact": {
+		"homepage": "https://github.com/magdalenabay/swathe",
+		"sources": "https://github.com/magdalenabay/swathe",
+		"issues": "https://github.com/magdalenabay/swathe/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/swathe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.swathe.Swathe"
+		],
+		"client": [
+			"dev.swathe.SwatheClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "swathe.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.0",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

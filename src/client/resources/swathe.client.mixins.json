@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "dev.swathe.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MinecraftMixin",
+		"MultiPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

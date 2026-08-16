@@ -1,0 +1,18 @@
+{
+	"key.category.swathe.general": "Swathe",
+	"key.swathe.cycle": "Cycle mining mode",
+	"key.swathe.settings": "Open area settings",
+
+	"swathe.mode.changed": "Swathe: %s",
+	"swathe.screen.title": "Swathe - Custom Area",
+	"swathe.screen.mode": "Mode: %s",
+	"swathe.screen.left": "Left",
+	"swathe.screen.right": "Right",
+	"swathe.screen.up": "Up",
+	"swathe.screen.down": "Down",
+	"swathe.screen.depth": "Depth",
+	"swathe.screen.preview": "Preview",
+	"swathe.screen.tool": "Tool check",
+	"swathe.screen.size": "%s blocks per break",
+	"swathe.screen.done": "Done"
+}
